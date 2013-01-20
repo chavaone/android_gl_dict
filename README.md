@@ -1,14 +1,14 @@
- Android Galician Keyboard Dictionary
- ====================================
+Android Galician Keyboard Dictionary
+====================================
 
- ## Dicionario de galego para teclado de Android (Galego)
+## Dicionario de galego para teclado de Android (Galego)
 
- Empregando a información [deste post](http://forum.xda-developers.com/showthread.php?t=1027207) en XDA-Developers e uns cuantos scripts que escribín en Python e Bash costruín un dicionario de galego para os nosos teclados en Android.
+Empregando a información [deste post](http://forum.xda-developers.com/showthread.php?t=1027207) en XDA-Developers e uns cuantos scripts que escribín en Python e Bash costruín un dicionario de galego para os nosos teclados en Android.
 
- Para obter as frecuencias das palabras en galego empreguei a paxina de novas [praza.com](http://praza.com).
+Para obter as frecuencias das palabras en galego empreguei a paxina de novas [praza.com](http://praza.com).
 
 
- ### Pasos para facer o diccionario
+### Pasos para facer o diccionario
 
   * Descargar os documentos web. Isto podese facer co script **retrieve_html.sh**. Este script recibe como parametro a paxina web da que queremos sacar as palabras e descarga de forma recursiva (visitando os enlaces que aparecen en cada documento) todas as web ata completar o nivel 5 de forma recursiva ou descargar un xigabyte de información. O script creará unha carpeta de nome html_folder que contera todos os arquivos html descargados.
 
